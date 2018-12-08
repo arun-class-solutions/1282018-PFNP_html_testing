@@ -1,3 +1,24 @@
 body {
   background-color: blue;
 }
+
+/* Target the ID from the HTML */
+#website-title {
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-size: 45px;
+}
+
+/* Target the class from the HTML */
+.animated-divs {
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  background-color: orange;
+}
+
+.animated-divs:hover {
+  transition: all 1s ease-in-out;
+  transform: rotate(720deg) scale(2);
+}
